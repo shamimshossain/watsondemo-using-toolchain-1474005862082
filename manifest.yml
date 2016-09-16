@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: watsondemo-using-toolchain
+  host: watsondemo-using-toolchain
+  disk_quota: 1024M
+  services:
+  - watsondemo-using-toolchain-personality_insights
